@@ -11,14 +11,17 @@ Compile and usage
 
 Quick guide: 
 
- 1. Install all dependencies: gcc, make, libsdl, sdl_mixer, sdl_net, bash.
+ 1. Install all dependencies: gcc, make, libsdl, sdl_mixer, sdl_net, bash. 
+ _Note: You will need the devel and original SDL dependancies installed_
  2. `cd trunk`
- 3. `./configure --help` #review your prefix, other paths, and extra options
+ 3. `./configure`
  4. `make`
- 5. `make install`
- 6. `man psdoom-ng` #read up on how to set it up the wrapper script psd
- 4. Get a copy of Doom, to copy the file Doom2.wad.
- 3. Action! `psd` or `psdoom-ng`
+ 5. `sudo make install`
+ 6. Get a copy of Doom, to copy the file Doom2.wad. Fedora Install: `sudo dnf install doom-shareware` this installs doom shareward doom1.wad to `/usr/share/games/doom/`
+ 7. Action! `sudo ./psdoom -iwad /usr/share/games/doom/doom2.wad -file /usr/share/games/doom/psdoom2.wad -psuser $USER -nomonsters -window` 
+_Note: This is my recommended settings upon installing the base doom game from fedora repos_
+
+*There is a Fedora Binary I compiled in Releases, but I have NOT tested it. This can bypass the entire build process if it works for you.*
 
 Find more information in:
  * [man psdoom-ng](https://github.com/orsonteodoro/psdoom-ng/blob/master/extras/psdoom-ng.pdf)
