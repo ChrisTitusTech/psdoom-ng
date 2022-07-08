@@ -1,5 +1,3 @@
-This repository has moved to https://github.com/orsonteodoro/psdoom-ng1 .
-
 psdoom-ng
 =========
 
@@ -28,10 +26,6 @@ Find more information in:
  * [trunk/INSTALL](https://github.com/orsonteodoro/psdoom-ng/blob/1.6.0/trunk/INSTALL)
  * [trunk/CMDLINE](https://github.com/orsonteodoro/psdoom-ng/blob/1.6.0/trunk/CMDLINE)
  * [trunk/README.psdoom-ng](https://github.com/orsonteodoro/psdoom-ng/blob/master/trunk/README.psdoom-ng) 
-
-Gentoo Linux
-------------
-You can find the ebuild at https://github.com/orsonteodoro/oiledmachine-overlay
 
 Mac OS X
 ---------
